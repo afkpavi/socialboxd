@@ -1,0 +1,16 @@
+.Navbar {
+  height: 7.2rem;
+  background: $color-dark;
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+
+  justify-content: space-between;
+
+  &__nav-links {
+    button {
+      margin: 0 1.5rem;
+    }
+  }
+}
